@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.intro{
+    background: url(/img/banner-introducao.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+.btn{
+    margin-top: 50%;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 50px;
+    padding: 15px;
+    border: 1px solid black;
+    color: blue;
+    font-size: 1em;
+    font-weight: 700;
+}
+.btn:hover{
+    margin-top: 50%;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 50px;
+    padding: 15px;
+    border: 1px solid blue;
+    color: blue;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+
+/*----------Logo Navbar----------
+------------------------------------*/
+header .container-nav img{
+    width: 250px;
+    height: 120px;
+    margin-left: 10px;
+    display: flex;
+}
+/*----------Links Navbar----------
+------------------------------------*/
+header .container-nav{
+    display: flex;
+    border: 5px solid;
+    border-image: linear-gradient(210deg, #000, rgb(15,199,255), blue) 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    margin-right: 10px;
+    transition: 1s;
+}
+header nav a:hover{
+    color: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    text-decoration: underline rgb(95, 95, 149);
+    margin-right: 10px;
+}
+
+.conteudo h1{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+/*----------Conteudo Section----------
+-----------------------------------------*/
+.figure{
+    text-align: center;
+}
+.grade{
+    border: 1px solid;
+    border-image: linear-gradient(210deg, #000, rgb(15,199,255), blue) 1;
+}
+.grade h2{
+    text-align: center;
+}
+.grade ul{
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.grade ul a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+}
+.grade ul a:hover{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: blue;
+    text-decoration: underline aqua;
+    
+}
+.grade ul a li{
+    margin-left: 25px;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 25px;
+}
+.img-1{
+    border: 1px solid black;
+    display: flex;
+}
+.img-1 img{
+    width: 29%;
+}
+
+
+
+
+/*==========Algoritmos e programação estruturada==========
+================Estilização da página================*/
+.intro-banner{
+    width: 100%;
+}
+.content  h1{
+    font-size: 35px;
+    text-align: center;
+}
+.content h2{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.content  h3{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+.content  p{
+    font-size: 20px;
+    margin-top: 7px;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+.content li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-weight: 700;
+    font-size: 18px;
+}
+em{
+    color: black;
+    font-weight: 700;
+}
+.resume{
+    padding: 30px;
+    background-color: black;
+}
+.resume p{
+    color: azure;
+}
+.resume em{
+    color: aqua;
+}
+.bns h2{
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bottom-button{
+    text-align: center;
+}
+.btn-bottom{
+    width: 150px;
+    height: 30px;
+    color: #000;
+    background-color: aqua;
+    border: none;
+    border-radius: 15px;
+    font-weight: 700;
+}
+.btn-bottom:hover{
+    width: 150px;
+    height: 30px;
+    color: #000;
+    background-color: aqua;
+    border: none;
+    border-radius: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.img-content{
+    text-align: center;
+}
+.img-content img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+hr{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+/*=========Footer==========
+========================*/
+#foo{
+    background-color: azure;
+    margin-top: 50px;
+    border: 5px solid;
+    border-image: linear-gradient(210deg, #000, rgb(15,199,255), blue) 1;
+}
+.footer-menu a{
+    color: blue;
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
