@@ -221,6 +221,8 @@ em{
 .img-content img{
     margin-top: 15px;
     margin-bottom: 15px;
+    width: 740px;
+    height: 400px;
 }
 hr{
     margin-top: 25px;

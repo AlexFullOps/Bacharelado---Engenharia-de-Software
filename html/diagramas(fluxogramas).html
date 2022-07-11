@@ -30,37 +30,97 @@
 <!--Information Section -->
     <section id="information" class="information">
             <div class="img-intro">
-                <img class="intro-banner" src="/img/fluxograma.jfif" alt="Banner linguagens naturais">
+                <img class="intro-banner" src="/img/fluxograma.jfif" alt="Banner Fluxogramas">
             </div>
             <div class="content">
                 <h1>Diagramas de blocos (Fluxogramas)</h1>
-                <p>Linguagem natural é uma forma de comunicação entre as pessoas de diversas línguas, que pode ser falada, escrita ou gesticulada, entre outras formas de comunicação.</p>
-                <p>A linguagem natural é uma grande contribuição para o desenvolvimento de uma aplicação computacional, pois pode direcionar de forma simples e eficiente as descrições dos problemas e suas soluções.</p>
-                <p>O algoritmo para cozimento de arroz, apresentado anteriormente, é um exemplo de uso da linguagem natural. Para reforçar esse conceito, podemos considerar o cadastro das notas dos alunos de um curso.</p>
-                <p>O problema é o seguinte: o usuário (possivelmente o professor) deverá entrar com dois valores que representam as notas de um aluno em cada bimestre, e o computador retornará o resultado da média desses valores (média das notas). Então, se a média for maior ou igual a 6.0 (seis), o aluno está aprovado; caso contrário, está reprovado.</p>
-                <p>Para realizar a solução desse problema, podemos fazer uso da seguinte estrutura:</p>
+                <p>Podemos caracterizar diagrama de blocos como um conjunto de símbolos gráficos, em que cada um desses símbolos representa ações específicas a serem executadas pelo computador.</p>
+                <p>Vale lembrar que o diagrama de blocos determina a linha de raciocínio utilizada pelo desenvolvedor para resolver problemas. Ao escrever um diagrama de blocos, o desenvolvedor deve estar ciente de que os símbolos utilizados estejam em harmonia e sejam de fácil entendimento.</p>
+                <p>Para que os diagramas de blocos tenham certa coerência, os seus símbolos foram padronizados pela ANSI (American National Standards Institute ou, em português, Instituto Americano de Padronização).</p>
+                <p>O quadro a seguir mostra os principais símbolos utilizados para se descrever um algoritmo.</p>
                 <div class="img-content">
-                    <img  src="/img/algoritmo-notas.png" alt="Algoritmo de notas">
+                    <img  src="/img/fluxograma-estrutura.png" alt="Algoritmo de notas">
                 </div>
-                <p>Observe que a linguagem natural é muito próxima da nossa linguagem. Antes de iniciar a explicação acerca do diagrama de blocos e pseudocódigo, vamos entender sucintamente o que são variáveis e atribuições, para que você, estudante, tenha condições de interpretar e avançar nos seus estudos de algoritmos.</p>
-                <h3>Variáveis</h3>
-                <p>As variáveis, como o próprio nome sugere, consistem em algo que pode sofrer variações. Elas estão relacionadas à identificação de uma informação, por exemplo, o nome de um aluno, suas notas bimestrais, entre outras.</p>
-                <h3>Atribuição</h3>
-                <p>A atribuição, representada em pseudocódigo por meio do símbolo ←, tem a função de indicar valores para as variáveis, ou seja, atribuir informação para variável. Por exemplo:</p>
+                <p>Ao utilizar os símbolos do diagrama de blocos com suas respectivas instruções, você vai aprendendo e desenvolvendo cada vez mais a sua lógica em relação à resolução de problemas.</p>
+                <p>A figura – Diagrama de blocos (fluxograma) –, ilustra o diagrama com o algoritmo descrito em linguagem natural, que calcula a média de notas e a situação de um aluno, representado por meio de um diagrama de blocos.</p>
+                <div class="img-content">
+                    <img  src="/img/fluxograma-estrutura2.png" alt="Algoritmo de notas">
+                </div>
+                <h3> Assimile</h3>
+                <p>Algumas dicas para construir um diagrama de blocos (fluxograma) são as seguintes:</p>
                 <ul>
-                    <li>idade ← 8</li>
-                    <li>nome_aluno ← “márcio”</li>
-                    <li>nome_professor ← “josé”</li>
-                    <li>nota_aluno ← 9.5</li>
+                    <li>estar atento à sequência das instruções.</li>
+                    <li>certificar-se de que o diagrama de blocos (fluxograma) comece de cima para baixo e da esquerda para direita.</li>
+                    <li>ficar atento para não cruzar as linhas dos fluxos.</li>
                 </ul>
-                <p>O exemplo apresentado indica que o número “8” está sendo atribuído como valor (informação) para a variável “idade”. Analogamente, o texto “márcio” está atribuído como valor para a variável “nome_aluno” e o valor real “9.5” está sendo atribuído como valor para a variável “nota_aluno”.</p>
-                <p>Dando sequência ao seu estudo de algoritmos, veja a seguir o funcionamento dos diagramas de blocos, que também podem ser chamados de fluxogramas.</p>
+                <h3>Vejamos, então, as representações de cada passo do diagrama:</h3>
+                <p>O símbolo terminal deu início ao algoritmo.</p>
+                <div class="img-content">
+                    <img  src="/img/fluxograma-estrutura3.png" alt="Algoritmo de notas">
+                </div>
+                <p>O símbolo de processamento definiu as variáveis.</p>
+                <div class="img-content">
+                    <img  src="/img/fluxograma-estrutura4.png" alt="Algoritmo de notas">
+                </div>
+                <p>O símbolo exibido mostra na tela o que o usuário deve fazer. Nesse caso, ele deve informar o valor da primeira nota do aluno, isto é, a nota do primeiro bimestre.</p>
+                <div class="img-content">
+                    <img  src="/img/fluxograma-estrutura5.png" alt="Algoritmo de notas">
+                </div>
+                <p>O símbolo de entrada manual libera o usuário para entrar com a primeira nota. Observe que há uma diferença entre “nota 1”, no símbolo anterior, e “nota1” descrita a seguir. No símbolo anterior, “nota 1” refere-se ao texto que será apresentado ao usuário, para que ele saiba o que deve ser feito. Já o símbolo que segue, “nota1”, refere-se ao nome da variável declarada anteriormente (no segundo símbolo utilizado neste diagrama de blocos).</p>
+                <div class="img-content">
+                    <img  src="/img/fluxograma-estrutura6.png" alt="Algoritmo de notas">
+                </div>
+                <p>O próximo símbolo de processamento realiza a atribuição do resultado do cálculo da média aritmética das duas notas lidas anteriormente à variável “media”. Neste momento, você pode se perguntar se não precisa adicionar a soma das notas em uma variável antes de calcular a média. A resposta é: <em>depende!</em></p>
+                <p>Se você for usar o valor da soma das notas para mostrá-lo na tela ou como entrada de outro cálculo, além da média, então sim, vale a pena armazená-lo em uma variável. Como esse não é o nosso caso, então não foi preciso declarar mais uma variável no algoritmo.</p>
+                <div class="img-content">
+                    <img  src="/img/fluxograma-estrutura7.png" alt="Algoritmo de notas">
+                </div>
+                <p>O símbolo de exibição mostra na tela o resultado da média calculada.</p>
+                <div class="img-content">
+                    <img  src="/img/fluxograma-estrutura8.png" alt="Algoritmo de notas">
+                </div>
+                <p>O símbolo de decisão define a condicional (verdadeiro ou falso) para a expressão “media >= 6”.</p>
+                <div class="img-content">
+                    <img  src="/img/fluxograma-estrutura9.png" alt="Algoritmo de notas">
+                </div>
+                <p>Se a condição for verdadeira, o texto impresso na tela do usuário será “Aprovado”.</p>
+                <div class="img-content">
+                    <img  src="/img/fluxograma-estrutura10.png" alt="Algoritmo de notas">
+                </div>
+                <p>Se a condição for falsa, o texto impresso na tela do usuário será “Reprovado”.</p>
+                <div class="img-content">
+                    <img  src="/img/fluxograma-estrutura11.png" alt="Algoritmo de notas">
+                </div>
+                <p>Para finalizar o algoritmo, o símbolo terminal é utilizado mais uma vez.</p>
+                <div class="img-content">
+                    <img  src="/img/fluxograma-estrutura12.png" alt="Algoritmo de notas">
+                </div>
+                <p>Outro exemplo que podemos destacar é a operação em um caixa eletrônico. Uma das primeiras atividades que o usuário deve realizar após ter se identificado é selecionar a operação a ser executada. Por exemplo: verificar saldo, emitir extrato, saque e sair. </p>
+                <p>As figuras a seguir ilustram o diagrama para realizar essa operação.</p>
+                <div class="img-content">
+                    <img  src="/img/fluxograma-estrutura13.png" alt="Algoritmo de notas">
+                </div>
+                <div class="img-content">
+                    <img  src="/img/fluxograma-estrutura14.png" alt="Algoritmo de notas">
+                </div>
+                <h3>Exemplificando</h3>
+                <p>Ainda a respeito do exemplo da figura – Fluxograma de operação de caixa eletrônico –, para que o fluxograma não fique muito extenso, dificultando seu entendimento, você pode tratar cada operação bancária em um fluxograma à parte.</p>
+                <p>A figura ilustra o exemplo de fluxograma que trata da operação de saque em um sistema bancário.</p>
+                <div class="img-content">
+                    <img  src="/img/fluxograma-estrutura15.png" alt="Algoritmo de notas">
+                </div>
+                <div class="img-content">
+                    <img  src="/img/fluxograma-estrutura16.png" alt="Algoritmo de notas">
+                </div>
+                <h3>Reflita</h3>
+                <p>Observando o fluxograma que representa a operação de saque em um sistema bancário, apresentado na figura – Fluxograma da operação de saque  –, como você alteraria o fluxograma para que o usuário possa escolher informar ou não um novo valor, caso o valor atualmente informado por ele seja inválido (ou seja, exceda o limite máximo ou seja maior do que o saldo atual do cliente)?</p>
+
             </div>
                 <hr/>
 <!--Information end-->
         <div class="bottom-button">
             <a href="/html/introducao.html"><input class="btn-bottom" type="button" value="Voltar conteúdo"></a>
-            <a href="/html/diagramas(fluxogramas).html"><input class="btn-bottom" type="button" value="Próximo conteúdo"></a>
+            <a href="/html/pseudocodigos.html"><input class="btn-bottom" type="button" value="Próximo conteúdo"></a>
         </div>
     </section>
 
